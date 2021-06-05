@@ -1,7 +1,7 @@
 from typing import List
 
 #msg = your text
-#This function returns ASCII (int)
+#This function returns ASCII as a List of int value
 def encode(msg: str):
     code: List[int] = [ord(c) for c in msg]
     return code
