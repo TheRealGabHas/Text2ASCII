@@ -10,6 +10,6 @@ def encode(msg: str):
 #This function returns text (str)
 def decode(code: List[int]):
     decoded: List[str] = [chr(element) for element in code]
-    #transform decoded (List) to f (str)
-    f: str = "".join(decoded)
-    return f
+    #transform decoded (List) to output (str)
+    output: str = "".join(decoded)
+    return output
