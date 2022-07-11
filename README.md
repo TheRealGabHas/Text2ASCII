@@ -2,8 +2,8 @@
 
 ## Description
 This python script ([converter.py](https://github.com/TheRealGabHas/Text2ASCII/blob/main/converter.py)) contains two functions:
-- encode() is used to return a list of Integer, one item per character in its ASCII form.
-- decode() is used to do the opposite, it return a string "decoded" from a list of ASCII (int) values.
+- `encode()` is used to return a list of Integer, one item per character in its ASCII form.
+- `decode()` is used to do the opposite, it return a string "decoded" from a list of ASCII (int) values.
 
 ## How to use
 * You can copy the functions contained in [converter.py](https://github.com/TheRealGabHas/Text2ASCII/blob/main/converter.py) inside the script
